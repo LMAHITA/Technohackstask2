@@ -1,0 +1,146 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+/* Existing CSS remains unchanged */
+
+.header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 1rem 0;
+    display: flex; /* Updated to flex layout */
+    justify-content: space-between ; /* Aligns items to start and end */
+    align-items: center; /* Aligns items vertically */
+}
+
+.header h1 {
+    margin: 0;
+    font-size: 1.5rem;
+}
+
+.header .header2 {
+    color: #333;
+    font-size: 1.5rem;
+}
+
+
+.container {
+    position: relative;
+    width: 80%;
+    margin: 0 auto;
+    overflow: hidden;
+    text-align: center;
+    background-color: #f4f4f4;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container img {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    display: block;
+}
+.overlay-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 2rem;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    border-radius: 5px;
+}
+/* Existing CSS remains unchanged */
+
+.why {
+    display: flex;
+    align-items: center; /* Adjusted to center vertically */
+    padding: 2rem 0;
+    background-color: #fff;
+    width: 80%;
+    margin: 2rem auto;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.why .pic img {
+    width: 100%;
+    max-width: 200px; /* Adjusted width to make the image smaller */
+    height: auto;
+    display: block; /* Added border-radius to make the image round */
+    overflow: hidden; /* Ensures the border-radius works properly */
+}
+
+.why .about {
+    flex: 2; /* Changed to allow flexibility */
+    max-width: 600px;
+    padding: 0 2rem;
+}
+
+.why .about h2 {
+    margin-bottom: 1rem;
+    font-size: 2rem;
+    color: #333;
+}
+
+.why .about p {
+    font-size: 1.2rem;
+    color: #666;
+    line-height: 1.6;
+    margin-bottom: 1rem;
+}
+.contact {
+    background-color: #f9f9f9;
+    padding: 100px 0;
+    text-align: center;
+  }
+  
+  .contact .details {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .contact form {
+    max-width: 200px;
+    margin: 0 auto;
+  }
+  
+  .contact form label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 18px;
+  }
+  
+  .contact form input[type="text"],
+  .contact form input[type="email"],
+  .contact form textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+  
+  .contact form textarea {
+    resize: vertical;
+  }
+  
+  .contact form input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+  }
+  
+  .contact form input[type="submit"]:hover {
+    background-color: #45a049;
+  }
+  
